@@ -1,3 +1,6 @@
+#Luis Fernando Velasco García
+#Ejercicio 1
+
 import math as m
 def distancia(x1,y1,x2,y2):
     x1=m.radians(x1)
