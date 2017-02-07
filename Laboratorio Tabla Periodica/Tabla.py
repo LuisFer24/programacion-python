@@ -7,7 +7,7 @@ import csv
 a=raw_input("Introduce alguna caracteristica del elemento: ")
 def TablaPe(x):
     x=a
-    with open('ptable.csv') as csvarchivo:
+    with open('Tabla.csv') as csvarchivo:
         entrada = csv.reader(csvarchivo)
         mod=[]
         for reg in entrada:
